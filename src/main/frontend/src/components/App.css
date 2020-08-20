@@ -1,0 +1,217 @@
+
+body, html {
+    background-color: #272822;
+}
+
+h1, h2, h3, h4, h5, h6, .variant {
+    color: #ddd;
+
+    font-variant: small-caps;
+}
+
+.material-icons {
+    font-variant: normal;
+}
+
+a, a:hover {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+.tag-remove-button {
+    margin-right: 5px;
+    float: right;
+}
+
+.centered {
+    text-align: -webkit-center;
+    margin-top: 30px;
+}
+.big-top-margin {
+    margin-top: 150px;
+}
+.ml-1 i {
+    font-size: 20pt;
+    padding: 4px 6px 0px 6px;
+    vertical-align: middle;
+    width: 40px;
+    height: 35px;
+    opacity: .7;
+}
+
+.ml-1 {
+    display: block;
+    color: white;
+}
+
+.navbar-fixed-top {
+    z-index: 999;
+}
+.ml-1 i:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.images {
+    margin-top: 60px;
+}
+.image-box {
+    box-sizing: border-box;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 230px;
+}
+
+.image-box > div,
+.image-box > div > .LazyLoad {
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+}
+
+.selectable > div {
+    margin: 5px;
+}
+
+.image-thumb {
+    margin-bottom: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.image-thumb.selected {
+    background-color: #555;
+}
+
+.thumbnail {
+    background-color: inherit;
+    border: 0px;
+    padding: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: table;
+    position: relative;
+}
+
+.thumbnail .badge {
+    position: absolute;
+    top:0px;
+    right: 0px;
+    background-color: #F44336;
+}
+
+.thumbnail>img {
+    margin: 0px;
+    width: 200px;
+    max-height: 130px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px #151515;
+    object-fit: cover;
+    object-position: center;
+}
+
+.thumbnail .caption {
+    padding: 9px 0px 9px 0px;
+    color: #ddd;
+    text-align: middle;
+    white-space: pre-wrap;
+    width: 200px;
+}
+
+
+.thumbnail .caption p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*
+ *  Scrollbar style
+ */
+
+.style-4::-webkit-scrollbar-track
+{
+	background-color: #272822;
+}
+
+.style-4-1::-webkit-scrollbar-track
+{
+	margin-left: 25px;
+}
+
+.style-4::-webkit-scrollbar
+{
+	width: 10px;
+	height: 10px;
+	background-color: none;
+}
+
+.style-4::-webkit-scrollbar-thumb
+{
+	background-color: #5f5f5f;
+}
+
+.style-4-1::-webkit-scrollbar-thumb
+{
+	background-color: #333;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/*
+.ril-inner, .ril-outer {
+    outline: none;
+}
+*/
+.ril-toolbar, .ril-caption {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.ril-toolbar-right {
+    background-color: rgba(0, 0, 0, 1) !important;
+    border: 1px solid #555;
+    padding-left: 5px !important;
+}
+
+.zoom_out a {
+    padding-bottom: 0px !important;
+}
+
+.modal-content {
+    background-color: #333333;
+    border: 1px solid #636363;  
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+
+.modal-content {
+    box-shadow: 0px 0px 20px rgba(101, 101, 101, 0.6);
+}
+
+.modal-footer {
+    border-top: 1px solid #636363;
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #636363;
+}
+
+.btn-primary {    
+    background-image: linear-gradient(to bottom,#676767 0,#2f2f2f 100%);
+    border-color: #5d5d5d;
+}
+
+.btn-primary.active, .btn-primary:active {
+    background-color: #444444;
+    border-color: #5d5d5d;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+    background-color: #353535;
+    border-color: #5d5d5d;
+}
+
+.btn-primary.active:hover{
+    background-color: #484848;
+    border-color: #5d5d5d;
+}

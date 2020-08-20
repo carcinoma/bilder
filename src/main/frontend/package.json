@@ -1,0 +1,39 @@
+{
+  "name": "bilder",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-preset-env": "^1.6.1",
+    "better-react-spinkit": "^2.0.0",
+    "boundless": "^1.1.0",
+    "lightgallery.js": "^1.0.1",
+    "rc-progress": "^2.2.4",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.2.0",
+    "react-image-lightbox": "^4.2.1",
+    "react-js-spatial-navigation": "0.0.4",
+    "react-lazy-image": "^1.1.0",
+    "react-lazy-load": "^3.0.12",
+    "react-lazyload": "^2.2.7",
+    "react-progressbar.js": "^0.2.0",
+    "react-redux": "5.0.6",
+    "react-router": "^4.0.0",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "react-select": "^1.0.0-rc.10",
+    "redux": "^3.0.4",
+    "redux-form": "^7.2.0",
+    "redux-promise": "^0.5.3",
+    "screenfull": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && mkdir -p ../../../target/classes && mv build ../../../target/classes/static",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
